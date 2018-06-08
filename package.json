@@ -1,0 +1,29 @@
+{
+  "name": "newform",
+  "version": "1.0.0",
+  "description": "NewForm",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "krothNOW",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^4.0.0",
+    "gulp-cli": "^2.0.1",
+    "uws": "^10.148.0"
+  },
+  "dependencies": {
+    "git": "^0.1.5",
+    "materialize-css": "^1.0.0-rc.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krothNOW/NewForm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/krothNOW/NewForm/issues"
+  },
+  "homepage": "https://github.com/krothNOW/NewForm#readme"
+}
