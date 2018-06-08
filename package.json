@@ -10,6 +10,7 @@
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.24.4",
+    "grunt-sass": "^2.1.0",
     "gulp": "^4.0.0",
     "gulp-cli": "^2.0.1",
     "uws": "^10.148.0"
