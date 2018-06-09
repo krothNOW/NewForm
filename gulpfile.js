@@ -1,7 +1,6 @@
 var gulp = require("gulp");
 
-gulp.task("default", function() {
-  return(
-    console.log("Kevbot")
-  );
+gulp.task("default", function(done) {
+  console.log("Kevbot");
+  done();
 });
