@@ -8,24 +8,34 @@
   <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css" media="screen,projection"/>
 </head>
 <body>
-  <section>
-    <div class="container">
-      <div class="row">
-        <form class="col s12">
-          <div class="row">
-            <div class="input-field col s6">
-              <input type="text" placeholder="First Name" id="firstname" class="validate">
-              <label for="firstname">First Name</label>
-            </div>
-            <div class="input-field col s6">
-              <input type="text" placeholder="Last Name" id="lastname" class="validate">
-              <label for="lastname">Last Name</label>
-            </div>
-          </div>
-        </form>
+  <div class="container">
+  <form>
+    <div class="row col s12" id="dv0">
+      <div class="input-field col s6">
+        <input type="text" placeholder="First Name" class="validate">
+        <label>First Name</label>
+      </div>
+      <div class="input-field col s6">
+        <input type="text" placeholder="Last Name" class="validate">
+        <label>Last Name</label>
       </div>
     </div>
-  </section>
+    <div id="dv1">
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="text" placeholder="Email" class="validate">
+          <label>Email</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <input type="number" placeholder="Driver ID" class="validate">
+          <label>Driver ID</label>
+        </div>
+      </div>
+    </div>
+  </form>
+  </div>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
 </body>
